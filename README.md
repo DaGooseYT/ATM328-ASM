@@ -31,7 +31,7 @@ avrdude.exe -c usbasp-clone -P usb -p m328p -U flash:w:ATM328-ASM.hex -v
 avrdude.exe -c usbasp-clone -P usb -p m328p -U lock:w:0x0F:m -v
 ```
 
-**Notice: Windows users need a driver for USBasp and other similar programmers.**
+**Notice: A driver may be required for your programmer to work.**
 
 
 ## Compilation
