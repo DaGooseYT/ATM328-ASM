@@ -10,7 +10,7 @@ Custom bootloader designed specifically for the ATmega328p microcontroller, with
 * Basic power status LED indicator.
 
 ## Sample application
-<img src="https://github.com/DaGooseYT/ATM328-ASM/blob/main/pic/3.png" width="534" height="300"></img>
+<img src="https://github.com/DaGooseYT/ATM328-ASM/blob/main/pic/3.png" width="534"></img>
 
 The electrical schematic and BoM for this prototype PCB can be found in `/prototype`.
 
@@ -18,7 +18,7 @@ The electrical schematic and BoM for this prototype PCB can be found in `/protot
 Requires a supported ISP programmer and avrdude flash software. A USBasp Chinese clone is used in this example.<br />
 
 Using the sample prototype PCB, connect the USBasp to the correct pin headers. Refer to the schematic of the sample PCB for correct pin mapping.<br /><br />
-<img src="https://github.com/DaGooseYT/ATM328-ASM/blob/main/pic/1.png" width="534" height="300"></img>
+<img src="https://github.com/DaGooseYT/ATM328-ASM/blob/main/pic/1.png" width="534"></img>
 
 Use the following commands to flash the bootloader to the MCU:<br />
 
