@@ -1,12 +1,11 @@
 # ATM328-ASM
-Custom bootloader designed specifically for the ATmega328p microcontroller, with complete programming interface support.
+Custom bootloader designed specifically for the ATmega328p microcontroller, with standard IPS programming interface support.
 
 ## Features
-* Complete interface support including SPI/ISP, UART, and USB.
-* All interfaces enable the device for master and slave configurations.
+* Supports master and slave configurations.
 * Sleep mode for built-in hardware allows efficient power operation.
 * Error handling.
-* Read/write status LED for UART and USB I/O.
+* Read/write status for programming I/O.
 * Basic power status LED indicator.
 
 ## Sample application
