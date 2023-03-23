@@ -5,7 +5,7 @@ Custom bootloader designed specifically for the ATmega328p microcontroller, with
 * Supports master and slave configurations.
 * Sleep mode for built-in hardware allows efficient power operation.
 * Error handling.
-* Read/write status for programming I/O.
+* Read/write status LED for programming I/O.
 * Basic power status LED indicator.
 
 ## Sample application
