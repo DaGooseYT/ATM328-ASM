@@ -23,12 +23,8 @@ Using the sample prototype PCB, connect the USBasp to the correct pin headers. R
 Use the following commands to flash the bootloader to the MCU:<br />
 
 ```
-avrdude.exe -c usbasp-clone -P usb -p m328p -B 8 -u -e -U lock:w:0x3F:m -v
-avrdude.exe -c usbasp-clone -P usb -p m328p -u -U efuse:w:0xFD:m -v
-avrdude.exe -c usbasp-clone -P usb -p m328p -u -U hfuse:w:0xDC:m -v
-avrdude.exe -c usbasp-clone -P usb -p m328p -u -U lfuse:w:0xFF:m -v 
-avrdude.exe -c usbasp-clone -P usb -p m328p -U flash:w:ATM328-ASM.hex -v
-avrdude.exe -c usbasp-clone -P usb -p m328p -U lock:w:0x0F:m -v
+avrdude.exe -c usbasp-clone -P usb -p m328p -U lock:w:0x3f:m -U lfuse:w:0xff:m -U hfuse:w:0xde:m -U efuse:w:0xfd:m
+avrdude.exe -c usbasp-clone -P usb -p m328p -U flash:w:ATM328-ASM.hex -U lock:w:0x0f:m
 ```
 
 **Notice: A driver may be required for your programmer to work.**
