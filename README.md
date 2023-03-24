@@ -1,9 +1,8 @@
 # ATM328-ASM
-Custom bootloader designed specifically for the ATmega328p microcontroller, with standard IPS programming interface support.
+A custom bootloader designed specifically for the ATmega328p microcontroller, with standard IPS programming interface support.
 
 ## Features
-* Supports master and slave configurations.
-* Sleep mode for built-in hardware allows efficient power operation.
+* Lightweight and fast.
 * Error handling.
 * Read/write status LED for programming I/O.
 * Basic power status LED indicator.
