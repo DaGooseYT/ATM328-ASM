@@ -15,7 +15,7 @@ The electrical schematic and BoM for this prototype PCB can be found in `/protot
 ## Flashing the MCU
 Requires a supported ISP programmer and avrdude flash software. A USBasp Chinese clone is used in this example.<br />
 
-Using the sample prototype PCB, connect the USBasp to the correct pin headers. Refer to the schematic of the sample PCB for correct pin mapping.<br /><br />
+Using the sample prototype PCB, connect the USBasp to the correct pin headers. Refer to the schematic of the prototype for correct pin mapping.<br /><br />
 <img src="https://github.com/DaGooseYT/ATM328-ASM/blob/main/pic/1.png" width="534"></img>
 
 Use the following commands to flash the bootloader to the MCU:<br />
