@@ -5,7 +5,7 @@ A custom bootloader designed specifically for the ATmega328p microcontroller, wi
 ## Features
 * Lightweight and fast.
 * Error handling.
-* Read/write status LED for programming I/O.
+* Error status LED indicator.
 * Basic ready/on status LED indicator.
 
 ## Sample application
