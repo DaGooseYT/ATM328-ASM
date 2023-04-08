@@ -2,13 +2,13 @@
 ;
 ; Copyright (C) 2023 DaGoose
 
-	.device ATmega328P
+    .device ATmega328P
 	
-	; page size in bytes
-	.equ	PSBYTE = 256
-	.org	0x3F00
+    ; page size in bytes
+    .equ	PSBYTE = 256
+    .org	0x3F00
 
-	jmp Main
+    jmp Main
 
     ; r0, r1, r16, r17 -> general registers
     ; r20 -> spmcrval
@@ -102,3 +102,4 @@ Return:
     ldi		r20, (1 << RWWSRE) | (1 << SELFPRGEN)
     spm
     rjmp	Return
+
