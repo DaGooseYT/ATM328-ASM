@@ -1,5 +1,5 @@
 # ATM328-ASM
-An AVR bootloader designed specifically for the ATmega328p 8-bit MCU, with SPI programming interface support.<br />
+An AVR boot loader designed specifically for the ATmega328p 8-bit MCU, with SPI programming interface support.<br />
 **This implementation has not been fully tested for confirmed functionality.**
 
 ## Features
