@@ -2,13 +2,13 @@
 ;
 ; Copyright (C) 2023 DaGoose
 
-    .device ATmega328P
+    .device	ATmega328P
 	
     ; page size in bytes
     .equ	PSBYTE = 256
     .org	0x3F00
 
-    jmp Main
+    jmp		Main
 
     ; r0, r1, r16, r17 -> general registers
     ; r20 -> spmcrval
@@ -18,8 +18,8 @@
 Main:
     ; enable PINC0 output (ready LED)
     ldi		r16, (1 << PINC0)
-    out     DDRC, r16
-    out     PORTC, r16
+    out		DDRC, r16
+    out		PORTC, r16
     ; disable interrupts
     in		r17, SREG
     cli
