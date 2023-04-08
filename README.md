@@ -1,5 +1,6 @@
 # ATM328-ASM
-A custom bootloader designed specifically for the ATmega328p microcontroller, with standard IPS/SPI programming interface support.
+A custom bootloader designed specifically for the ATmega328p microcontroller, with standard IPS/SPI programming interface support.<br />
+**This implementation has not been fully tested for correct functionality.** 
 
 ## Features
 * Lightweight and fast.
