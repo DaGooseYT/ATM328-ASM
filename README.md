@@ -11,7 +11,8 @@ An AVR bootloader designed specifically for the ATmega328p 8-bit MCU, with SPI p
 ## Sample application
 <img src="https://github.com/DaGooseYT/ATM328-ASM/blob/main/pic/3.png" width="534"></img>
 
-The electrical schematic and BoM for this prototype PCB can be found in `/prototype`.
+The electrical schematic for this prototype PCB can be found in `/schematic`. <br />
+The board features accessibility to pins D0-D7, B0, B6, B7, and C2-C5 through female headers. The ready and error status LEDs are connected to pins C0 and C1.
 
 ## Flashing the MCU
 Requires a supported ISP programmer and avrdude flash software. A USBasp Chinese clone is used in this example.<br />
